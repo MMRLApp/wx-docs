@@ -1,8 +1,8 @@
 import { WXApp } from "./WXApp";
 
-declare var webui: ApplicationInterface; // accesspoint for webui-x
-
 export interface ApplicationInterface {
+  exit(): void;
+  setRefreshing(state: boolean): void
   getCurrentRootManager(): WXApp;
   getCurrentApplication(): WXApp;
   getApplication(packageName: string): WXApp;
