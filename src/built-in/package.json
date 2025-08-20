@@ -1,0 +1,7 @@
+{
+    "name": "built-in",
+    "main": "./index.ts",
+    "exports": {
+        ".": "./index.ts"
+    }
+}

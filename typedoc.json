@@ -1,0 +1,34 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "WebUI X Documentation",
+  "entryPoints": ["src/wxu", "src/built-in"],
+  "entryPointStrategy": "packages",
+  "out": "docs",
+  "sort": ["source-order"],
+  "categorizeByGroup": true,
+  
+  "hostedBaseUrl": "https://typedoc.org/example/",
+  "navigationLinks": {
+    "Download from GitHub": "https://github.com/MMRLApp/WebUI-X-Portable",
+    "Download from Google Play": "https://play.google.com/store/apps/details?id=com.dergoogler.mmrl.wx",
+    "GitHub": "https://github.com/MMRLApp/WebUI-X-Portable"
+  },
+
+  "highlightLanguages": [
+    "typescript",
+    "tsx",
+    "css",
+    "json",
+    "jsonc",
+    "python",
+    "yaml",
+    "markdown"
+  ],
+
+  "markdownItOptions": {
+    "html": true
+  },
+
+  "suppressCommentWarningsInDeclarationFiles": true,
+  "exclude": ["**/*.test.ts", "**/*.spec.ts"]
+}

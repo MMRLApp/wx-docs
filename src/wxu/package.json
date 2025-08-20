@@ -1,0 +1,7 @@
+{
+    "name": "wxu",
+    "main": "./index.ts",
+    "exports": {
+        ".": "./index.ts"
+    }
+}
