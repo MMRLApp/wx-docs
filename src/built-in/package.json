@@ -1,5 +1,5 @@
 {
-    "name": "built-in",
+    "name": "Built-In Interfaces",
     "main": "./index.ts",
     "exports": {
         ".": "./index.ts"

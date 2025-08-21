@@ -1,5 +1,5 @@
 {
-    "name": "webuix",
+    "name": "WebUI X Package",
     "main": "./index.ts",
     "exports": {
         ".": "./index.ts"

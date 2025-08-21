@@ -1,7 +1,7 @@
 {
   "$schema": "https://typedoc.org/schema.json",
   "name": "WebUI X Documentation",
-  "entryPoints": ["src/_wxu_", "src/built-in", "src/_webuix_"],
+  "entryPoints": ["src/*"],
   "entryPointStrategy": "packages",
   "out": "docs",
   "sort": ["source-order"],

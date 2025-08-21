@@ -7,9 +7,13 @@
     "scripts": {
         "lint": "eslint .",
         "tsc": "tsc",
-        "typedoc": "typedoc --options typedoc.json"
+        "docs": "typedoc --options typedoc.json",
+        "docs:watch": "chokidar 'src/**/*.ts' -c 'npm run docs'",
+        "docs:serve": "live-server docs"
     },
     "devDependencies": {
+        "chokidar-cli": "^3.0.0",
+        "live-server": "^1.2.2",
         "typescript": "^5.4.5"
     },
     "dependencies": {

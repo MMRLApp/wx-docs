@@ -1,5 +1,5 @@
 {
-    "name": "wxu",
+    "name": "WebUI X Utility Plugin",
     "main": "./index.ts",
     "exports": {
         ".": "./index.ts"
