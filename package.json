@@ -7,12 +7,14 @@
     "scripts": {
         "lint": "eslint .",
         "tsc": "tsc",
-        "typedoc": "typedoc"
+        "typedoc": "typedoc --options typedoc.json"
     },
     "devDependencies": {
         "typescript": "^5.4.5"
     },
     "dependencies": {
-        "typedoc": "^0.28.10"
+        "typedoc": "^0.28.10",
+        "webuix": "^0.0.16",
+        "wxu": "^0.0.65"
     }
 }

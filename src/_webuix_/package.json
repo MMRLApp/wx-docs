@@ -1,0 +1,7 @@
+{
+    "name": "webuix",
+    "main": "./index.ts",
+    "exports": {
+        ".": "./index.ts"
+    }
+}

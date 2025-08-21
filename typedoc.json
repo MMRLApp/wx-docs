@@ -1,12 +1,19 @@
 {
   "$schema": "https://typedoc.org/schema.json",
   "name": "WebUI X Documentation",
-  "entryPoints": ["src/wxu", "src/built-in"],
+  "entryPoints": ["src/_wxu_", "src/built-in", "src/_webuix_"],
   "entryPointStrategy": "packages",
   "out": "docs",
   "sort": ["source-order"],
   "categorizeByGroup": true,
-  
+  "disableSources": true,
+  "visibilityFilters": {
+    "protected": false,
+    "private": false,
+    "inherited": true,
+    "external": true
+  },
+  "customCss": "src/style.css",
   "hostedBaseUrl": "https://typedoc.org/example/",
   "navigationLinks": {
     "Download from GitHub": "https://github.com/MMRLApp/WebUI-X-Portable",
