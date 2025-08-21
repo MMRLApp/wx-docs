@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Build TypeDoc documentation
-        run: npm run typedoc
+        run: npm run docs
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
