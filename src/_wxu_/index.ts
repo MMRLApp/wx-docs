@@ -17,12 +17,4 @@
  * > WebUI X uses the MMRL Sanitized Module ID feature. Please visit the [documentation](https://mmrl.dev/guide/webuix/sanitized-ids) for more information.
  */
 
-export * from "./FileSystem";
-export * from "./Module";
-export * from "./PackageManager";
-export * from "./Process";
-export * from "./Pty";
-export * from "./Reflect";
-export * from "./Global";
-
 export * from "wxu";

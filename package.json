@@ -18,7 +18,7 @@
     },
     "dependencies": {
         "typedoc": "^0.28.10",
-        "webuix": "^0.0.16",
-        "wxu": "^0.0.65"
+        "webuix": "latest",
+        "wxu": "latest"
     }
 }
