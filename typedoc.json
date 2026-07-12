@@ -13,6 +13,7 @@
     "inherited": true,
     "external": true
   },
+  "plugin": ["typedoc-plugin-example-tag"],
   "customCss": "src/style.css",
   "hostedBaseUrl": "https://typedoc.org/example/",
   "navigationLinks": {
